@@ -5,20 +5,18 @@ Development: 🩺📊
 Dataset and EDA (Exploratory Data Analysis): First, the key variables in the dataset (number of pregnancies, glucose, blood pressure, skin thickness, insulin, body mass index (BMI), diabetes pedigree function, and age) were reviewed. Each of these variables provides potentially significant information about diabetes. Additionally, the "Outcome" variable (diabetes status) was analyzed.
 
 During data analysis, the assumption of normality for age data was tested. This step helps determine which statistical test is appropriate. If the data follows a normal distribution, parametric tests (e.g., t-test) can be used. Otherwise, non-parametric tests (e.g., Mann-Whitney U test) are preferred.
-This is my world
 
 Shapiro-Wilk Test (Normality Test): 🤔
 
 The Shapiro-Wilk test is a non-parametric test used to determine whether the data follows a normal distribution. The null hypothesis (H0) of this test states that the data is normally distributed.
 
-If the p-value obtained from the Shapiro-Wilk test is less than 0.05, it indicates that the data significantly deviates from a normal distribution, and parametric tests cannot be applied. In such cases, non-parametric tests are used. This is my world
+If the p-value obtained from the Shapiro-Wilk test is less than 0.05, it indicates that the data significantly deviates from a normal distribution, and parametric tests cannot be applied. In such cases, non-parametric tests are used. 
 
 Results of Shapiro-Wilk Test and Mann-Whitney U Test: 🧐
 
 If the p-value in the Shapiro-Wilk test is less than 0.05 (e.g., in this case, 0.0000), this indicates that the data does not follow a normal distribution. As a result, non-parametric tests, such as the Mann-Whitney U Test, are applied.
 
 The Mann-Whitney U Test examines whether the medians of two independent groups differ. This test is appropriate for non-parametric data when the normality assumption is not met.
-This is my world
 
 Evaluation of Results: 🚀
 
@@ -35,7 +33,6 @@ Summary: 📊
 
 The Shapiro-Wilk Test checks whether the data follows a normal distribution. If the p-value is less than 0.05, non-parametric tests are applied.
 The Mann-Whitney U Test evaluates the difference in medians between two groups. If the p-value is less than 0.05, it indicates a significant difference between the groups.
-This is my world
 
 
 
